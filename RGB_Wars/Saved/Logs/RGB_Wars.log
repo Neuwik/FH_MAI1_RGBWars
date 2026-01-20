@@ -1163,3 +1163,444 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.01.20-19.30.53:575][ 19]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.01.20-19.30.53:575][ 19]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 678.947632, Update Interval: 345.559875
 [2026.01.20-19.32.22:245][302]LogPSOHitching: Encountered 150 PSO creation hitches so far (33 graphics, 117 compute). 0 of them were precached.
+[2026.01.20-19.34.13:885][694]LogSlate: Took 0.012711 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.01.20-19.36.44:210][145]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1029.916504
+[2026.01.20-19.36.45:210][148]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.20-19.36.45:210][148]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1030.582886, Update Interval: 304.015625
+[2026.01.20-19.39.16:498][861]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2026.01.20-19.39.16:554][861]LogStreaming: Display: FlushAsyncLoading(474): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.20-19.39.16:723][861]LogOutputDevice: Warning: 
+
+Script Stack (0 frames) :
+
+[2026.01.20-19.39.16:968][861]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.245 s
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: === Handled ensure: ===
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: 
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: Ensure condition failed: !FindPin(FFunctionEntryHelper::GetWorldContextPinName())  [File:D:\build\++UE5\Sync\Engine\Source\Editor\BlueprintGraph\Private\K2Node_FunctionEntry.cpp] [Line: 400] 
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: /Game/RGB_Wars/FN_RGB_GlobalFunctions: World context parameter pin already exists on function entry node GetExplosionMaterialByRGB
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: Stack: 
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe68a6f164 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe688f171b UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe688cee59 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe688d09c4 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe6887d197 UnrealEditor-BlueprintGraph.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe888157fa UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe7e3c7960 UnrealEditor-Kismet.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe7e3c5126 UnrealEditor-Kismet.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe8b8b0600 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe8bbda982 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe8bf6ca9f UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe8bf7543a UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe8bf79c5e UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe8bf7b288 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe8bf8bb07 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe8bf9e393 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe8bf7e153 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe8b9ae74f UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe8b9ae3dc UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe8bebe609 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe8bebd7a8 UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe8bebdd9e UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00000206129d2c02 UnrealEditor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00000206129bf649 UnrealEditor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00000206129bfa17 UnrealEditor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x000002061299daab UnrealEditor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe60254d83 UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe601f1492 UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe60258562 UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe601fbad7 UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe6013bbe7 UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe602726ed UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe6025912e UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe8b08512b UnrealEditor-Slate.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe8b0e008a UnrealEditor-Slate.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe8b0cff4b UnrealEditor-Slate.dll!UnknownFunction []
+[2026.01.20-19.39.16:968][861]LogOutputDevice: Error: [Callstack] 0x00007ffe8b0c35f7 UnrealEditor-Slate.dll!UnknownFunction []
+[2026.01.20-19.39.16:969][861]LogOutputDevice: Error: [Callstack] 0x00007ffecddff9a3 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2026.01.20-19.39.16:969][861]LogOutputDevice: Error: [Callstack] 0x00007ffecdde7137 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2026.01.20-19.39.16:969][861]LogOutputDevice: Error: [Callstack] 0x00007ffecde0299c UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2026.01.20-19.39.16:969][861]LogOutputDevice: Error: [Callstack] 0x00007ffecdde1171 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2026.01.20-19.39.16:969][861]LogOutputDevice: Error: [Callstack] 0x00007fff6c737846 USER32.dll!UnknownFunction []
+[2026.01.20-19.39.16:969][861]LogOutputDevice: Error: [Callstack] 0x00007fff6c73539d USER32.dll!UnknownFunction []
+[2026.01.20-19.39.16:969][861]LogOutputDevice: Error: [Callstack] 0x00007ffecde22316 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2026.01.20-19.39.16:969][861]LogOutputDevice: Error: [Callstack] 0x00007ff7d5e9871b UnrealEditor.exe!UnknownFunction []
+[2026.01.20-19.39.16:969][861]LogOutputDevice: Error: [Callstack] 0x00007ff7d5ebe5ac UnrealEditor.exe!UnknownFunction []
+[2026.01.20-19.39.16:969][861]LogOutputDevice: Error: [Callstack] 0x00007ff7d5ebe6ba UnrealEditor.exe!UnknownFunction []
+[2026.01.20-19.39.16:969][861]LogOutputDevice: Error: [Callstack] 0x00007ff7d5ec209e UnrealEditor.exe!UnknownFunction []
+[2026.01.20-19.39.16:969][861]LogOutputDevice: Error: [Callstack] 0x00007ff7d5ed4e44 UnrealEditor.exe!UnknownFunction []
+[2026.01.20-19.39.16:969][861]LogOutputDevice: Error: [Callstack] 0x00007ff7d5ed80fa UnrealEditor.exe!UnknownFunction []
+[2026.01.20-19.39.16:969][861]LogOutputDevice: Error: [Callstack] 0x00007fff6d01e8d7 KERNEL32.DLL!UnknownFunction []
+[2026.01.20-19.39.16:969][861]LogOutputDevice: Error: [Callstack] 0x00007fff6dd6c53c ntdll.dll!UnknownFunction []
+[2026.01.20-19.39.16:969][861]LogOutputDevice: Error: 
+[2026.01.20-19.39.16:979][861]LogStats:                SubmitErrorReport -  0.000 s
+[2026.01.20-19.39.34:081][861]LogAudioMixer: Display: Attempt to swap audio render device to new device: '[System Default]', because: 'AudioMixerPlatformInterface. Timeout waiting for h/w.', force=1
+[2026.01.20-19.39.34:081][861]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [17 Seconds] waiting for h/w. InstanceID=1
+[2026.01.20-19.39.34:093][861]LogStats:                    SendNewReport - 17.114 s
+[2026.01.20-19.39.34:093][861]LogStats:             FDebug::EnsureFailed - 17.369 s
+[2026.01.20-19.39.35:661][861]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.8.dll
+[2026.01.20-19.39.35:822][861]LogChaosDD: Creating Chaos Debug Draw Scene for world lvl_Outpost
+[2026.01.20-19.39.35:849][861]LogAssetEditorSubsystem: Opening Asset editor for World /Game/RGB_Wars/lvl_Outpost.lvl_Outpost
+[2026.01.20-19.39.35:883][861]Cmd: MAP LOAD FILE="F:/Unreal Projects/FH_MAI1_RGBWars/RGB_Wars/Content/RGB_Wars/lvl_Outpost.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.01.20-19.39.35:987][861]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [[System Default]]
+[2026.01.20-19.39.35:987][861]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.01.20-19.39.35:987][861]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=AudioMixerPlatformInterface. Timeout waiting for h/w.
+[2026.01.20-19.39.35:989][861]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2026.01.20-19.39.35:989][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.20-19.39.35:999][861]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Untitled_1.Untitled_1
+[2026.01.20-19.39.36:135][861]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.01.20-19.39.36:181][861]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2026.01.20-19.39.36:214][861]LogWorld: UWorld::CleanupWorld for lvl_Outpost, bSessionEnded=true, bCleanupResources=true
+[2026.01.20-19.39.36:215][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.20-19.39.36:244][861]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2026.01.20-19.39.36:260][861]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2026.01.20-19.39.36:304][861]LogAudio: Display: Audio Device (ID: 1) registered with world 'lvl_Outpost'.
+[2026.01.20-19.39.36:304][861]LogChaosDD: Creating Chaos Debug Draw Scene for world lvl_Outpost
+[2026.01.20-19.39.36:433][861]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.01.20-19.39.36:476][861]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2026.01.20-19.39.36:502][861]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.01.20-19.39.36:502][861]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.088ms to complete.
+[2026.01.20-19.39.36:612][861]LogNavigation: Warning: FNavigationOctree::AddNode: Empty bounds, ignoring BrushComponent /Game/RGB_Wars/lvl_Outpost.lvl_Outpost:PersistentLevel.BlockingVolume_0.BrushComponent0.
+[2026.01.20-19.39.36:652][861]LogAudioMixer: Display: FMixerPlatformXAudio2::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{f5dc62e4-99c4-4e30-85b3-05ba37b6ddd4}, Name=Headphones (Samson G-Track Pro)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=15.48
+[2026.01.20-19.39.36:659][861]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.01.20-19.39.36:659][861]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.01.20-19.39.36:662][861]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.01.20-19.39.37:048][862]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.01.20-19.39.37:796][862]LogPSOHitching: Encountered 200 PSO creation hitches so far (58 graphics, 142 compute). 0 of them were precached.
+[2026.01.20-19.39.37:848][862]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.01.20-19.39.37:852][862]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.01.20-19.39.37:873][862]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.01.20-19.39.37:896][862]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.01.20-19.39.38:554][864]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.20-19.39.38:754][865]LogPSOHitching: Encountered 250 PSO creation hitches so far (89 graphics, 161 compute). 0 of them were precached.
+[2026.01.20-19.39.38:977][866]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.01.20-19.39.38:977][866]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2026.01.20-19.42.05:071][307]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1350.778076
+[2026.01.20-19.42.06:071][310]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.01.20-19.42.06:071][310]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1351.444702, Update Interval: 304.740753
+[2026.01.20-19.43.31:892][606]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.20-19.43.31:909][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.20-19.43.31:924][606]LogPlayLevel: Display: Creating online subsystem for client :Context_1
+[2026.01.20-19.43.31:926][606]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2026.01.20-19.43.31:988][607]LogPlayLevel: Creating play world package: /Game/RGB_Wars/UEDPIE_0_lvl_Outpost
+[2026.01.20-19.43.32:031][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043299s)
+[2026.01.20-19.43.32:031][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RGB_Wars/lvl_Outpost.lvl_Outpost to /Game/RGB_Wars/UEDPIE_0_lvl_Outpost.lvl_Outpost (0.043352s)
+[2026.01.20-19.43.32:046][607]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2026.01.20-19.43.32:050][607]LogChaosDD: Creating Chaos Debug Draw Scene for world lvl_Outpost
+[2026.01.20-19.43.32:051][607]LogPlayLevel: PIE: World Init took: (0.001552s)
+[2026.01.20-19.43.32:052][607]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2026.01.20-19.43.32:052][607]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.20-19.43.32:052][607]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.20-19.43.32:052][607]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.20-19.43.32:052][607]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.20-19.43.32:052][607]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.20-19.43.32:052][607]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.20-19.43.32:052][607]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.20-19.43.32:052][607]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.20-19.43.32:052][607]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.20-19.43.32:052][607]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.20-19.43.32:052][607]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.20-19.43.32:053][607]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.20-19.43.32:084][607]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Samson G-Track Pro)
+[2026.01.20-19.43.32:085][607]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.20-19.43.32:085][607]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.20-19.43.32:085][607]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.20-19.43.32:085][607]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2026.01.20-19.43.32:085][607]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2026.01.20-19.43.32:087][607]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2026.01.20-19.43.32:087][607]LogInit: FAudioDevice initialized with ID 2.
+[2026.01.20-19.43.32:087][607]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2026.01.20-19.43.32:087][607]LogAudio: Display: Audio Device (ID: 2) registered with world 'lvl_Outpost'.
+[2026.01.20-19.43.32:087][607]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2026.01.20-19.43.32:100][607]LogLoad: Game class is 'GM_RGB_Shooter_C'
+[2026.01.20-19.43.32:112][607]LogWorld: Bringing World /Game/RGB_Wars/UEDPIE_0_lvl_Outpost.lvl_Outpost up for play (max tick rate 0) at 2026.01.20-20.43.32
+[2026.01.20-19.43.32:112][607]LogWorld: Bringing up level for play took: 0.012135
+[2026.01.20-19.43.32:150][607]PIE: Server logged in
+[2026.01.20-19.43.32:152][607]PIE: Play in editor total start time 0.243 seconds.
+[2026.01.20-19.43.32:187][607]LogAudio: Warning: Detected orphaned looping sound 'S_RGB_BackgroundMusic'.
+[2026.01.20-19.43.32:189][607]LogSlate: New Slate User Created. Platform User Id 1, User Index 1, Is Virtual User: 0
+[2026.01.20-19.43.32:190][607]LogSlate: Slate User Registered.  User Index 1, Is Virtual User: 0
+[2026.01.20-19.43.32:190][607]LogSlate: New Slate User Created. Platform User Id 2, User Index 2, Is Virtual User: 0
+[2026.01.20-19.43.32:190][607]LogSlate: Slate User Registered.  User Index 2, Is Virtual User: 0
+[2026.01.20-19.43.32:723][609]LogPSOHitching: Encountered 300 PSO creation hitches so far (105 graphics, 195 compute). 0 of them were precached.
+[2026.01.20-19.43.34:696][782]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.20-19.43.34:696][782]LogWorld: BeginTearingDown for /Game/RGB_Wars/UEDPIE_0_lvl_Outpost
+[2026.01.20-19.43.34:696][782]LogWorld: UWorld::CleanupWorld for lvl_Outpost, bSessionEnded=true, bCleanupResources=true
+[2026.01.20-19.43.34:700][782]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.20-19.43.34:701][782]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.20-19.43.34:703][782]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.20-19.43.34:722][782]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.20-19.43.34:723][782]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2026.01.20-19.43.34:723][782]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2026.01.20-19.43.34:726][782]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2026.01.20-19.43.34:733][782]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.01.20-19.43.34:779][783]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2026.01.20-19.43.37:554][881]LogSlate: External Image Picker: DecompressImage failed
+[2026.01.20-19.43.37:785][883]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2026.01.20-19.43.38:325][894]LogPSOHitching: Encountered 350 PSO creation hitches so far (129 graphics, 221 compute). 0 of them were precached.
+[2026.01.20-19.43.59:949][730]LogSlate: Window 'Project Settings' being destroyed
+[2026.01.20-19.44.00:030][730]LogSlate: Window 'Project Settings' being destroyed
+[2026.01.20-19.44.02:778][828]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.20-19.44.02:795][828]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.20-19.44.02:795][828]LogPlayLevel: Display: Creating online subsystem for client :Context_3
+[2026.01.20-19.44.02:797][828]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2026.01.20-19.44.02:821][829]LogPlayLevel: Creating play world package: /Game/RGB_Wars/UEDPIE_0_lvl_Outpost
+[2026.01.20-19.44.02:865][829]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044948s)
+[2026.01.20-19.44.02:865][829]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RGB_Wars/lvl_Outpost.lvl_Outpost to /Game/RGB_Wars/UEDPIE_0_lvl_Outpost.lvl_Outpost (0.044987s)
+[2026.01.20-19.44.02:880][829]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2026.01.20-19.44.02:881][829]LogChaosDD: Creating Chaos Debug Draw Scene for world lvl_Outpost
+[2026.01.20-19.44.02:883][829]LogPlayLevel: PIE: World Init took: (0.001369s)
+[2026.01.20-19.44.02:883][829]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2026.01.20-19.44.02:883][829]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.20-19.44.02:883][829]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.20-19.44.02:884][829]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.20-19.44.02:884][829]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.20-19.44.02:884][829]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.20-19.44.02:884][829]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.20-19.44.02:884][829]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.20-19.44.02:884][829]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.20-19.44.02:884][829]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.20-19.44.02:884][829]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.20-19.44.02:884][829]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.20-19.44.02:885][829]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.20-19.44.02:914][829]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Samson G-Track Pro)
+[2026.01.20-19.44.02:914][829]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.20-19.44.02:914][829]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.20-19.44.02:914][829]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.20-19.44.02:914][829]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2026.01.20-19.44.02:914][829]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2026.01.20-19.44.02:916][829]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2026.01.20-19.44.02:916][829]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2026.01.20-19.44.02:916][829]LogInit: FAudioDevice initialized with ID 3.
+[2026.01.20-19.44.02:916][829]LogAudio: Display: Audio Device (ID: 3) registered with world 'lvl_Outpost'.
+[2026.01.20-19.44.02:916][829]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2026.01.20-19.44.02:919][829]LogLoad: Game class is 'GM_RGB_Shooter_C'
+[2026.01.20-19.44.02:931][829]LogWorld: Bringing World /Game/RGB_Wars/UEDPIE_0_lvl_Outpost.lvl_Outpost up for play (max tick rate 0) at 2026.01.20-20.44.02
+[2026.01.20-19.44.02:932][829]LogWorld: Bringing up level for play took: 0.011716
+[2026.01.20-19.44.02:938][829]PIE: Server logged in
+[2026.01.20-19.44.02:939][829]PIE: Play in editor total start time 0.145 seconds.
+[2026.01.20-19.44.02:961][829]LogAudio: Warning: Detected orphaned looping sound 'S_RGB_BackgroundMusic'.
+[2026.01.20-19.44.03:066][830]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.20-19.44.05:715][931]LogInputDeviceMapper: [AllocateNewUserId] Allocating a new PlatformUserId 1
+[2026.01.20-19.44.11:236][129]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.20-19.44.11:236][129]LogWorld: BeginTearingDown for /Game/RGB_Wars/UEDPIE_0_lvl_Outpost
+[2026.01.20-19.44.11:236][129]LogWorld: UWorld::CleanupWorld for lvl_Outpost, bSessionEnded=true, bCleanupResources=true
+[2026.01.20-19.44.11:239][129]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.20-19.44.11:246][129]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.20-19.44.11:250][129]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.20-19.44.11:265][129]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.20-19.44.11:267][129]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2026.01.20-19.44.11:267][129]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2026.01.20-19.44.11:269][129]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2026.01.20-19.44.11:276][129]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2026.01.20-19.44.11:320][130]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2026.01.20-19.44.13:034][193]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/RGB_Wars/GM_RGB_Shooter.GM_RGB_Shooter
+[2026.01.20-19.44.13:062][193]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2026.01.20-19.44.13:282][193]LogStreaming: Display: FlushAsyncLoading(476): 1 QueuedPackages, 0 AsyncPackages
+[2026.01.20-19.44.15:078][193]LogSlate: Took 0.014281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2026.01.20-19.44.17:618][276]LogSlate: Window 'GM_RGB_Shooter' being destroyed
+[2026.01.20-19.44.17:692][276]LogSlate: Window 'GM_RGB_Shooter' being destroyed
+[2026.01.20-19.44.17:708][276]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2026.01.20-19.44.17:708][276]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.20-19.44.17:820][276]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2026.01.20-19.44.26:330][580]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.20-19.44.26:347][580]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.20-19.44.26:347][580]LogPlayLevel: Display: Creating online subsystem for client :Context_5
+[2026.01.20-19.44.26:349][580]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2026.01.20-19.44.26:376][581]LogPlayLevel: Creating play world package: /Game/RGB_Wars/UEDPIE_0_lvl_Outpost
+[2026.01.20-19.44.26:421][581]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044508s)
+[2026.01.20-19.44.26:421][581]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RGB_Wars/lvl_Outpost.lvl_Outpost to /Game/RGB_Wars/UEDPIE_0_lvl_Outpost.lvl_Outpost (0.044550s)
+[2026.01.20-19.44.26:440][581]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2026.01.20-19.44.26:441][581]LogChaosDD: Creating Chaos Debug Draw Scene for world lvl_Outpost
+[2026.01.20-19.44.26:443][581]LogPlayLevel: PIE: World Init took: (0.001463s)
+[2026.01.20-19.44.26:444][581]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2026.01.20-19.44.26:444][581]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.20-19.44.26:444][581]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.20-19.44.26:444][581]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.20-19.44.26:444][581]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.20-19.44.26:444][581]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.20-19.44.26:444][581]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.20-19.44.26:444][581]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.20-19.44.26:444][581]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.20-19.44.26:444][581]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.20-19.44.26:444][581]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.20-19.44.26:444][581]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.20-19.44.26:446][581]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.20-19.44.26:485][581]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Samson G-Track Pro)
+[2026.01.20-19.44.26:485][581]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.20-19.44.26:485][581]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.20-19.44.26:485][581]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.20-19.44.26:485][581]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2026.01.20-19.44.26:485][581]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2026.01.20-19.44.26:488][581]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2026.01.20-19.44.26:488][581]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2026.01.20-19.44.26:488][581]LogInit: FAudioDevice initialized with ID 4.
+[2026.01.20-19.44.26:488][581]LogAudio: Display: Audio Device (ID: 4) registered with world 'lvl_Outpost'.
+[2026.01.20-19.44.26:488][581]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2026.01.20-19.44.26:491][581]LogLoad: Game class is 'GM_RGB_Shooter_C'
+[2026.01.20-19.44.26:503][581]LogWorld: Bringing World /Game/RGB_Wars/UEDPIE_0_lvl_Outpost.lvl_Outpost up for play (max tick rate 0) at 2026.01.20-20.44.26
+[2026.01.20-19.44.26:504][581]LogWorld: Bringing up level for play took: 0.011871
+[2026.01.20-19.44.26:509][581]PIE: Server logged in
+[2026.01.20-19.44.26:511][581]PIE: Play in editor total start time 0.164 seconds.
+[2026.01.20-19.44.26:533][581]LogAudio: Warning: Detected orphaned looping sound 'S_RGB_BackgroundMusic'.
+[2026.01.20-19.44.26:648][582]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.20-19.44.29:542][701]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/RGB_Wars/GM_RGB_Shooter.GM_RGB_Shooter
+[2026.01.20-19.44.29:542][701]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2026.01.20-19.44.37:382][ 59]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.20-19.44.37:383][ 59]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RGB_Wars/GM_RGB_Shooter] ([2] browsable assets)...
+[2026.01.20-19.44.37:383][ 59]OBJ SavePackage: Finished generating thumbnails for package [/Game/RGB_Wars/GM_RGB_Shooter]
+[2026.01.20-19.44.37:383][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RGB_Wars/GM_RGB_Shooter" FILE="F:/Unreal Projects/FH_MAI1_RGBWars/RGB_Wars/Content/RGB_Wars/GM_RGB_Shooter.uasset" SILENT=true
+[2026.01.20-19.44.37:850][ 59]LogSavePackage: Moving output files for package: /Game/RGB_Wars/GM_RGB_Shooter
+[2026.01.20-19.44.37:852][ 59]LogSavePackage: Moving 'F:/Unreal Projects/FH_MAI1_RGBWars/RGB_Wars/Saved/GM_RGB_Shooter2EAD38494A1D6569B129539498D06FC1.tmp' to 'F:/Unreal Projects/FH_MAI1_RGBWars/RGB_Wars/Content/RGB_Wars/GM_RGB_Shooter.uasset'
+[2026.01.20-19.44.37:855][ 59]LogFileHelpers: InternalPromptForCheckoutAndSave took 471.542 ms
+[2026.01.20-19.44.37:867][ 59]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.20-19.44.37:867][ 59]LogContentValidation: Enabled validators:
+[2026.01.20-19.44.37:867][ 59]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.20-19.44.37:867][ 59]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.20-19.44.37:867][ 59]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.20-19.44.37:867][ 59]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.20-19.44.37:868][ 59]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.20-19.44.37:868][ 59]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.20-19.44.37:872][ 59]AssetCheck: /Game/RGB_Wars/GM_RGB_Shooter Validating asset
+[2026.01.20-19.44.37:908][ 59]LogSourceControl: Display: Uncontrolled Changelist persistency file saved F:/Unreal Projects/FH_MAI1_RGBWars/RGB_Wars/Saved/SourceControl/UncontrolledChangelists.json
+[2026.01.20-19.44.38:560][ 94]LogScript: Warning: Script Msg: Attempted to access index 255 from array 'ColoredPlayerMaterials' of length 9 in '/Game/RGB_Wars/Blueprints/Characters/BP_RGB_Character.BP_RGB_Character_C'!
+[2026.01.20-19.44.38:560][ 94]LogScript: Warning: Script Msg called by: BP_RGB_ShooterCharacter_C /Game/RGB_Wars/UEDPIE_0_lvl_Outpost.lvl_Outpost:PersistentLevel.BP_RGB_ShooterCharacter_C_0
+[2026.01.20-19.44.38:560][ 94]LogScript: Warning: Script Msg: Attempted to access index 258 from array 'ColoredPlayerMaterials' of length 9 in '/Game/RGB_Wars/Blueprints/Characters/BP_RGB_Character.BP_RGB_Character_C'!
+[2026.01.20-19.44.38:560][ 94]LogScript: Warning: Script Msg called by: BP_RGB_ShooterCharacter_C /Game/RGB_Wars/UEDPIE_0_lvl_Outpost.lvl_Outpost:PersistentLevel.BP_RGB_ShooterCharacter_C_0
+[2026.01.20-19.44.38:560][ 94]LogScript: Warning: Script Msg: Attempted to access index 261 from array 'ColoredPlayerMaterials' of length 9 in '/Game/RGB_Wars/Blueprints/Characters/BP_RGB_Character.BP_RGB_Character_C'!
+[2026.01.20-19.44.38:560][ 94]LogScript: Warning: Script Msg called by: BP_RGB_ShooterCharacter_C /Game/RGB_Wars/UEDPIE_0_lvl_Outpost.lvl_Outpost:PersistentLevel.BP_RGB_ShooterCharacter_C_0
+[2026.01.20-19.44.38:560][ 94]LogScript: Warning: Accessed None trying to read (real) property GM_as_GM_RGB_Shooter in BP_RGB_ShooterCharacter_C
+	BP_RGB_ShooterCharacter_C /Game/RGB_Wars/UEDPIE_0_lvl_Outpost.lvl_Outpost:PersistentLevel.BP_RGB_ShooterCharacter_C_0
+	Function /Game/RGB_Wars/Blueprints/Characters/BP_RGB_ShooterCharacter.BP_RGB_ShooterCharacter_C:ExecuteUbergraph_BP_RGB_ShooterCharacter:04F5
+[2026.01.20-19.44.38:560][ 94]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property GM_as_GM_RGB_Shooter in BP_RGB_ShooterCharacter_C". Node:  ResetPlayerHP Graph:  EventGraph Function:  Execute Ubergraph BP RGB Shooter Character Blueprint:  BP_RGB_ShooterCharacter
+[2026.01.20-19.44.38:663][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2026.01.20-19.44.38:708][ 94]LogAudio: Warning: Detected orphaned looping sound 'S_RGB_BackgroundMusic'.
+[2026.01.20-19.44.38:709][ 94]LogSlate: New Slate User Created. Platform User Id 3, User Index 3, Is Virtual User: 0
+[2026.01.20-19.44.38:711][ 94]LogSlate: Slate User Registered.  User Index 3, Is Virtual User: 0
+[2026.01.20-19.44.39:633][134]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.20-19.44.39:633][134]LogWorld: BeginTearingDown for /Game/RGB_Wars/UEDPIE_0_lvl_Outpost
+[2026.01.20-19.44.39:634][134]LogWorld: UWorld::CleanupWorld for lvl_Outpost, bSessionEnded=true, bCleanupResources=true
+[2026.01.20-19.44.39:637][134]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.20-19.44.39:639][134]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.20-19.44.39:644][134]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.20-19.44.39:665][134]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.01.20-19.44.39:666][134]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2026.01.20-19.44.39:666][134]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=4
+[2026.01.20-19.44.39:668][134]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=2
+[2026.01.20-19.44.39:672][134]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.20-19.44.39:678][134]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.01.20-19.44.39:952][135]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2026.01.20-19.44.41:953][247]LogSlate: Window 'Message Log' being destroyed
+[2026.01.20-19.44.41:963][247]LogSlate: Window 'Message Log' being destroyed
+[2026.01.20-19.44.42:790][289]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.01.20-19.44.42:809][289]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.01.20-19.44.42:809][289]LogPlayLevel: Display: Creating online subsystem for client :Context_7
+[2026.01.20-19.44.42:812][289]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2026.01.20-19.44.42:844][290]LogPlayLevel: Creating play world package: /Game/RGB_Wars/UEDPIE_0_lvl_Outpost
+[2026.01.20-19.44.42:889][290]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044735s)
+[2026.01.20-19.44.42:889][290]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RGB_Wars/lvl_Outpost.lvl_Outpost to /Game/RGB_Wars/UEDPIE_0_lvl_Outpost.lvl_Outpost (0.044802s)
+[2026.01.20-19.44.42:910][290]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2026.01.20-19.44.42:911][290]LogChaosDD: Creating Chaos Debug Draw Scene for world lvl_Outpost
+[2026.01.20-19.44.42:912][290]LogPlayLevel: PIE: World Init took: (0.001421s)
+[2026.01.20-19.44.42:912][290]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2026.01.20-19.44.42:912][290]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.01.20-19.44.42:912][290]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.01.20-19.44.42:912][290]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.01.20-19.44.42:912][290]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.01.20-19.44.42:913][290]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.01.20-19.44.42:913][290]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.01.20-19.44.42:913][290]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.01.20-19.44.42:913][290]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.01.20-19.44.42:913][290]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.01.20-19.44.42:913][290]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.01.20-19.44.42:913][290]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.01.20-19.44.42:915][290]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.01.20-19.44.42:944][290]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Samson G-Track Pro)
+[2026.01.20-19.44.42:944][290]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.01.20-19.44.42:944][290]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.01.20-19.44.42:944][290]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.01.20-19.44.42:945][290]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2026.01.20-19.44.42:945][290]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2026.01.20-19.44.42:947][290]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2026.01.20-19.44.42:947][290]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2026.01.20-19.44.42:947][290]LogInit: FAudioDevice initialized with ID 5.
+[2026.01.20-19.44.42:947][290]LogAudio: Display: Audio Device (ID: 5) registered with world 'lvl_Outpost'.
+[2026.01.20-19.44.42:947][290]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2026.01.20-19.44.42:951][290]LogLoad: Game class is 'GM_RGB_Shooter_C'
+[2026.01.20-19.44.42:963][290]LogWorld: Bringing World /Game/RGB_Wars/UEDPIE_0_lvl_Outpost.lvl_Outpost up for play (max tick rate 0) at 2026.01.20-20.44.42
+[2026.01.20-19.44.42:964][290]LogWorld: Bringing up level for play took: 0.011999
+[2026.01.20-19.44.42:969][290]PIE: Server logged in
+[2026.01.20-19.44.42:970][290]PIE: Play in editor total start time 0.162 seconds.
+[2026.01.20-19.44.42:992][290]LogAudio: Warning: Detected orphaned looping sound 'S_RGB_BackgroundMusic'.
+[2026.01.20-19.44.43:078][291]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.01.20-19.45.09:762][507]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.20-19.45.09:762][507]LogWorld: BeginTearingDown for /Game/RGB_Wars/UEDPIE_0_lvl_Outpost
+[2026.01.20-19.45.09:763][507]LogWorld: UWorld::CleanupWorld for lvl_Outpost, bSessionEnded=true, bCleanupResources=true
+[2026.01.20-19.45.09:765][507]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.20-19.45.09:781][507]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.01.20-19.45.09:786][507]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.01.20-19.45.09:811][507]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.01.20-19.45.09:811][507]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2026.01.20-19.45.09:812][507]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=4
+[2026.01.20-19.45.09:813][507]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
+[2026.01.20-19.45.09:817][507]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.01.20-19.45.09:824][507]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2026.01.20-19.45.09:878][508]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2026.01.20-19.45.13:101][622]LogSlate: Window 'GM_RGB_Shooter' being destroyed
+[2026.01.20-19.45.14:794][703]LogSlate: Window 'GM_RGB_Shooter' being destroyed
+[2026.01.20-19.45.22:858][492]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.20-19.45.22:885][492]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RGB_Wars/GM_RGB_Shooter] ([2] browsable assets)...
+[2026.01.20-19.45.22:885][492]OBJ SavePackage: Finished generating thumbnails for package [/Game/RGB_Wars/GM_RGB_Shooter]
+[2026.01.20-19.45.22:885][492]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RGB_Wars/GM_RGB_Shooter" FILE="F:/Unreal Projects/FH_MAI1_RGBWars/RGB_Wars/Content/RGB_Wars/GM_RGB_Shooter.uasset" SILENT=true
+[2026.01.20-19.45.23:354][492]LogSavePackage: Moving output files for package: /Game/RGB_Wars/GM_RGB_Shooter
+[2026.01.20-19.45.23:355][492]LogSavePackage: Moving 'F:/Unreal Projects/FH_MAI1_RGBWars/RGB_Wars/Saved/GM_RGB_ShooterE9D91B4A485E361C86087680D371CD82.tmp' to 'F:/Unreal Projects/FH_MAI1_RGBWars/RGB_Wars/Content/RGB_Wars/GM_RGB_Shooter.uasset'
+[2026.01.20-19.45.23:366][492]LogFileHelpers: InternalPromptForCheckoutAndSave took 507.862 ms (total: 979.405 ms)
+[2026.01.20-19.45.23:409][492]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.20-19.45.23:409][492]LogContentValidation: Enabled validators:
+[2026.01.20-19.45.23:409][492]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.20-19.45.23:409][492]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.20-19.45.23:409][492]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.20-19.45.23:409][492]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.20-19.45.23:409][492]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.20-19.45.23:409][492]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.20-19.45.23:409][492]AssetCheck: /Game/RGB_Wars/GM_RGB_Shooter Validating asset
+[2026.01.20-19.45.25:564][657]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2026.01.20-19.45.26:177][704]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.20-19.45.26:219][704]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RGB_Wars/GM_RGB_Shooter] ([2] browsable assets)...
+[2026.01.20-19.45.26:219][704]OBJ SavePackage: Finished generating thumbnails for package [/Game/RGB_Wars/GM_RGB_Shooter]
+[2026.01.20-19.45.26:219][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RGB_Wars/GM_RGB_Shooter" FILE="F:/Unreal Projects/FH_MAI1_RGBWars/RGB_Wars/Content/RGB_Wars/GM_RGB_Shooter.uasset" SILENT=true
+[2026.01.20-19.45.26:679][704]LogSavePackage: Moving output files for package: /Game/RGB_Wars/GM_RGB_Shooter
+[2026.01.20-19.45.26:680][704]LogSavePackage: Moving 'F:/Unreal Projects/FH_MAI1_RGBWars/RGB_Wars/Saved/GM_RGB_Shooter07C82EAA42670795275FDEA9C6986E48.tmp' to 'F:/Unreal Projects/FH_MAI1_RGBWars/RGB_Wars/Content/RGB_Wars/GM_RGB_Shooter.uasset'
+[2026.01.20-19.45.26:687][704]LogFileHelpers: InternalPromptForCheckoutAndSave took 509.917 ms (total: 1.48 sec)
+[2026.01.20-19.45.26:723][704]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.20-19.45.26:723][704]LogContentValidation: Enabled validators:
+[2026.01.20-19.45.26:723][704]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.20-19.45.26:723][704]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.20-19.45.26:723][704]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.20-19.45.26:723][704]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.20-19.45.26:723][704]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.20-19.45.26:723][704]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.20-19.45.26:723][704]AssetCheck: /Game/RGB_Wars/GM_RGB_Shooter Validating asset
+[2026.01.20-19.45.27:606][805]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.20-19.45.27:648][805]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/RGB_Wars/GM_RGB_Shooter] ([2] browsable assets)...
+[2026.01.20-19.45.27:648][805]OBJ SavePackage: Finished generating thumbnails for package [/Game/RGB_Wars/GM_RGB_Shooter]
+[2026.01.20-19.45.27:648][805]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RGB_Wars/GM_RGB_Shooter" FILE="F:/Unreal Projects/FH_MAI1_RGBWars/RGB_Wars/Content/RGB_Wars/GM_RGB_Shooter.uasset" SILENT=true
+[2026.01.20-19.45.28:105][805]LogSavePackage: Moving output files for package: /Game/RGB_Wars/GM_RGB_Shooter
+[2026.01.20-19.45.28:106][805]LogSavePackage: Moving 'F:/Unreal Projects/FH_MAI1_RGBWars/RGB_Wars/Saved/GM_RGB_Shooter57835EBF43778FE5B06A6EABC10F2A59.tmp' to 'F:/Unreal Projects/FH_MAI1_RGBWars/RGB_Wars/Content/RGB_Wars/GM_RGB_Shooter.uasset'
+[2026.01.20-19.45.28:117][805]LogFileHelpers: InternalPromptForCheckoutAndSave took 510.799 ms (total: 2.00 sec)
+[2026.01.20-19.45.28:159][805]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.20-19.45.28:159][805]LogContentValidation: Enabled validators:
+[2026.01.20-19.45.28:159][805]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.20-19.45.28:159][805]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.20-19.45.28:159][805]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.20-19.45.28:159][805]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.20-19.45.28:159][805]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.20-19.45.28:159][805]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.20-19.45.28:159][805]AssetCheck: /Game/RGB_Wars/GM_RGB_Shooter Validating asset

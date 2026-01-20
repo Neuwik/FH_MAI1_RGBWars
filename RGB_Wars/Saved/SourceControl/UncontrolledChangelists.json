@@ -1,0 +1,12 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"F:/Unreal Projects/FH_MAI1_RGBWars/RGB_Wars/Content/RGB_Wars/GM_RGB_Shooter.uasset"
+			]
+		}
+	]
+}

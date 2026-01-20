@@ -1,5 +1,7 @@
 # FH_MAI1_RGBWars
 
+Readme of the Unreal Game "RGB Wars" by Dominik Neuwirth
+
 ## Project
 [Link to this Repo](https://github.com/Neuwik/FH_MAI1_RGBWars)
 
